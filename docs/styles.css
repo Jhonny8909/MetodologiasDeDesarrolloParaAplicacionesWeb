@@ -1,0 +1,76 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: darkkhaki;
+  }
+
+  h1{
+    color: crimson;
+  }
+
+  p{
+    color: aliceblue;
+  }
+
+  img{
+    max-height: 80rem;
+  }
+
+  @media (max-width: 1440px) {
+    h1{
+        color: crimson;
+      }
+    
+      p{
+        color: aliceblue;
+      }
+    
+      img{
+        max-height: 60rem;
+      }
+    
+}
+@media (max-width: 1024px) {
+    h1{
+        color: crimson;
+      }
+    
+      p{
+        color: aliceblue;
+      }
+    
+      img{
+        max-height: 50rem;
+      }
+    
+}
+@media (max-width: 768px) {
+    h1{
+        color: crimson;
+      }
+    
+      p{
+        color: aliceblue;
+      }
+    
+      img{
+        max-height: 40rem;
+      }
+    
+}
+
+@media (max-width: 320px) {
+    h1{
+        color: crimson;
+      }
+    
+      p{
+        color: aliceblue;
+      }
+    
+      img{
+        max-height: 32.5rem;
+      }
+    
+}
