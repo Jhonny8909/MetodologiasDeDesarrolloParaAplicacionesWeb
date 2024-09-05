@@ -1,6 +1,7 @@
 ## Jonathan Joel Montesinos Pacheco.
 ### Edad: 23 años
 
-[GitPages](https://jhonny8909.github.io/MetodologiasDeDesarrolloParaAplicacionesWeb/)
+[Practica 3](https://jhonny8909.github.io/MetodologiasDeDesarrolloParaAplicacionesWeb/)
+[Practica 4](https://jhonny8909.github.io/MetodologiasDeDesarrolloParaAplicacionesWeb/Practica-4/index.html)
 
 ![Yo](/docs/img/Yo.jpg)
