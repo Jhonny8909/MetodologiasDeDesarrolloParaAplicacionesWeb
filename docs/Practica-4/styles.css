@@ -1,0 +1,20 @@
+.Icon{
+    max-width: 3rem;
+    max-height: 3rem;
+}
+
+.Poster{
+    max-width: 18rem;
+}
+
+.navbar{
+    position:static;
+}
+
+.Posters{
+    max-width: 16rem;
+}
+
+body{
+    background-color:beige;
+}
