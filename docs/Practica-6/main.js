@@ -1,4 +1,3 @@
-// Productos disponibles
 let productos = [
     { nombre: "Camiseta", precio: 15, stock: 10 },
     { nombre: "Pantalones", precio: 25, stock: 8 },
@@ -6,13 +5,11 @@ let productos = [
     { nombre: "Sombrero", precio: 10, stock: 20 },
   ];
   
-  // Carrito de compras
   let carrito = [];
   
-  // Mostrar productos en la tienda
   function mostrarProductos() {
     const productosLista = document.getElementById('productos-lista');
-    productosLista.innerHTML = ''; // Limpiar la lista
+    productosLista.innerHTML = '';
   
     productos.forEach((producto, index) => {
       const productoDiv = document.createElement('div');
@@ -26,11 +23,10 @@ let productos = [
     });
   }
   
-  // Actualizar carrito
   function mostrarCarrito() {
     const carritoLista = document.getElementById('carrito-lista');
     const totalDiv = document.getElementById('total');
-    carritoLista.innerHTML = ''; // Limpiar carrito
+    carritoLista.innerHTML = '';
   
     let total = 0;
   
@@ -47,7 +43,6 @@ let productos = [
     totalDiv.innerText = `Total: $${total}`;
   }
   
-  // Agregar producto al carrito
   function agregarAlCarrito(index) {
     const producto = productos[index];
     if (producto.stock > 0) {
@@ -69,7 +64,6 @@ let productos = [
     mostrarCarrito();
   }
   
-  // Eliminar producto del carrito
   function eliminarDelCarrito(index) {
     const producto = productos[index];
     const itemEnCarrito = carrito.find(item => item.nombre === producto.nombre);
@@ -87,14 +81,13 @@ let productos = [
     mostrarCarrito();
   }
   
-  // Procesar la compra con un loader de 5 segundos
   function procesarCompra() {
     const loader = document.getElementById('loader');
-    loader.style.display = 'block';  // Mostrar loader
+    loader.style.display = 'block';
     setTimeout(() => {
-      loader.style.display = 'none'; // Ocultar loader después de 5s
+      loader.style.display = 'none';
       alert('Compra completada');
-      carrito = []; // Vaciar carrito
+      carrito = [];
       mostrarProductos();
       mostrarCarrito();
     }, 5000);
