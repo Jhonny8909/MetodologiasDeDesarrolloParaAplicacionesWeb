@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .producto img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .producto h3 {
+    font-size: 1.1em;
+  }
+  
+  .producto p {
+    font-size: 0.9em;
+  }
